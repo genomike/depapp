@@ -6,5 +6,5 @@ public class CambioEstado
 
     public DateTime FechaCambio { get; set; }
 
-    public string Notas { get; set; }
+    public string? Notas { get; set; }
 }

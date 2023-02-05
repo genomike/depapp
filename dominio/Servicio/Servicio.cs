@@ -10,5 +10,5 @@ public abstract class Servicio : iEntidad
 
     public DateOnly Fecha { get; set; }
 
-    public string Nombre { get; set; }
+    public string? Nombre { get; set; }
 }

@@ -2,5 +2,5 @@
 
 public class Limpieza : Servicio
 {
-    public List<CostoVariable> GastosInsumos { get; set; }
+    public List<CostoVariable>? GastosInsumos { get; set; }
 }

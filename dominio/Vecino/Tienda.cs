@@ -2,5 +2,5 @@
 
 public class Tienda : Propiedad
 {
-    public string GiroDeNegocio { get; set; }
+    public string? GiroDeNegocio { get; set; }
 }

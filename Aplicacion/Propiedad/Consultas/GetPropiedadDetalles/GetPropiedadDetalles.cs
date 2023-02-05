@@ -5,30 +5,27 @@ namespace Aplicacion.Propiedad.Consultas.GetPropiedadDetails;
 
 public class GetPropiedadDetalles : iGetPropiedadDetalles
 {
-    iDatabaseService _DatabaseService;
+    iDatabaseService? _DatabaseService;
 
-    public GetPropiedadDetalles(iDatabaseService DatabaseService)
+    public GetPropiedadDetalles(iDatabaseService? DatabaseService)
     {
-        _DatabaseService = _DatabaseService;
+        _DatabaseService = DatabaseService;
     }
 
-    public PropiedadDetallesModel Execute(int Id)
+    public PropiedadDetallesModel? Execute(int Id)
     {
-        var departamento = _DatabaseService.Departamentos
+        var departamento = _DatabaseService?.Departamentos
                 .Where(d => d.Id == Id)
                 .Select(d => new PropiedadDetallesModel()
                 {
                     Id = d.Id,
-                    NombresVecinos = d.Vecino
-                                        .Where(vecino => vecino.Principal == true)
-                                        .Select(vecino => $"{vecino.Nombres} {vecino.Apellidos}")
-                                        .ToList(),
+                    NombresVecinos = ((List<string>)(from v in d.Vecino
+                                        where v.Principal == true
+                                        select  $"{v.Nombres} {v.Apellidos}")),
                     TipoPropiedad = d.Tipo.ToString(),
                     Numero = d.Numero,
                     Metraje = d.Metraje,
-                    NombreServicios = d.Servicios
-                                        .Select(servicio => servicio.Nombre)
-                                        .ToList()
+                    NombreServicios = ((List<string>)(from s in d.Servicios select s.Nombre))
                 })
                 .Single();
 

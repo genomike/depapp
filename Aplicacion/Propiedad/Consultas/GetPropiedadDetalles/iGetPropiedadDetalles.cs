@@ -4,5 +4,5 @@ namespace Aplicacion.Propiedad.Consultas.GetPropiedadDetails;
 
 internal interface iGetPropiedadDetalles
 {
-    PropiedadDetallesModel Execute(int Id);
+    PropiedadDetallesModel? Execute(int Id);
 }
