@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Factura\" />
-    <Folder Include="Propiedad\Comandos\" />
+    <Folder Include="Propiedad\Comandos\CrearPropiedad\Factory\" />
     <Folder Include="Vecino\" />
     <Folder Include="Servicio\" />
   </ItemGroup>

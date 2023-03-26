@@ -1,6 +1,4 @@
-﻿using Aplicacion.Propiedad.Consultas.GetPropiedadDetalles;
-
-namespace Aplicacion.Propiedad.Consultas.GetPropiedadDetails;
+﻿namespace Aplicacion.Propiedad.Consultas.GetPropiedadDetalles;
 
 internal interface iGetPropiedadDetalles
 {
