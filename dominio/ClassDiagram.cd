@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical" MembersFormat="FullSignature">
   <Class Name="dominio.Propietario" Collapsed="true">
-    <Position X="0.75" Y="7.75" Width="1.5" />
+    <Position X="0.75" Y="9.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Vecino\Propietario.cs</FileName>
@@ -9,7 +9,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="dominio.Inquilino" Collapsed="true">
-    <Position X="3" Y="7.75" Width="1.5" />
+    <Position X="3" Y="9.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Vecino\Inquilino.cs</FileName>
@@ -17,7 +17,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="dominio.Vecino" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="3" Y="6.5" Width="1.5" />
+    <Position X="3" Y="8" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAASAAAAAAABAAAEAEAAAAAAAAAAAAAAAAAAAgAAAAQ=</HashCode>
       <FileName>Vecino\Vecino.cs</FileName>
@@ -26,16 +26,16 @@
     <Lollipop Position="0.109" />
   </Class>
   <Class Name="dominio.Propiedad">
-    <Position X="4" Y="3.5" Width="1.5" />
+    <Position X="4" Y="3" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAACAIEAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABAAQ=</HashCode>
+      <HashCode>AAACAIEAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABAAA=</HashCode>
       <FileName>Propiedad\Propiedad.cs</FileName>
       <NewMemberFileName>propiedad.cs</NewMemberFileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="dominio.Departamento" Collapsed="true">
-    <Position X="7.5" Y="4.75" Width="1.5" />
+    <Position X="7.5" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
       <FileName>Propiedad\Departamento.cs</FileName>
@@ -43,7 +43,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="dominio.Tienda" Collapsed="true">
-    <Position X="3" Y="4.75" Width="1.5" />
+    <Position X="3" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
       <FileName>Vecino\Tienda.cs</FileName>
@@ -51,7 +51,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="dominio.Cochera" Collapsed="true">
-    <Position X="0.75" Y="4.75" Width="1.5" />
+    <Position X="0.75" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
       <FileName>Propiedad\Cochera.cs</FileName>
@@ -59,7 +59,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="dominio.Almacen" Collapsed="true">
-    <Position X="5.25" Y="4.75" Width="1.5" />
+    <Position X="5.25" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Propiedad\Almacen.cs</FileName>
@@ -67,7 +67,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="dominio.Visitante" Collapsed="true">
-    <Position X="5.25" Y="7.75" Width="1.5" />
+    <Position X="5.25" Y="9.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAgAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Vecino\Visitante.cs</FileName>
@@ -77,7 +77,7 @@
   <Class Name="dominio.Servicio" Collapsed="true" BaseTypeListCollapsed="true">
     <Position X="4" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAABAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAACAAAAAABAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Servicio\Servicio.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -106,7 +106,7 @@
   <Class Name="dominio.Mantenimiento" Collapsed="true">
     <Position X="7.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAQAAAAAAgAABAAAAAAAAAAAAABAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAABAAAAA=</HashCode>
       <FileName>Servicio\Mantenimiento.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -124,42 +124,14 @@
       <FileName>Factura\CambioEstado.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="dominio.Comun.iFactura" Collapsed="true">
-    <Position X="8.5" Y="6.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Comun\iFactura.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="dominio.Factura" Collapsed="true">
-    <Position X="8.5" Y="7.75" Width="1.5" />
+    <Position X="7.75" Y="8" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACQAEAAAAAAAAAQAAAAARIAABAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Factura\Factura.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="dominio.Comun.iPropiedad" Collapsed="true">
-    <Position X="11" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Comun\iPropiedad.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Interface Name="dominio.Comun.iVecino" Collapsed="true">
-    <Position X="14.5" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Comun\iVecino.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Interface Name="dominio.Comun.iServicio" Collapsed="true">
-    <Position X="12.75" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Comun\iServicio.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
   <Enum Name="dominio.tipoCochera" Collapsed="true">
     <Position X="12.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
