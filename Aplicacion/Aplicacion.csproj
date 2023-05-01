@@ -11,9 +11,7 @@
     <Folder Include="Factura\Comandos\ActualizarFactura\" />
     <Folder Include="Factura\Consultas\ObtenerFacturaLista\" />
     <Folder Include="Factura\Consultas\ObtenerFacturaDetalle\" />
-    <Folder Include="Propiedad\Comandos\CrearPropiedad\" />
-    <Folder Include="Propiedad\Factory\" />
-    <Folder Include="Propiedad\Comandos\ActualizarPropiedad\" />
+    <Folder Include="Propiedad\Comandos\ActualizarDepartamento\" />
     <Folder Include="Servicio\Comandos\CrearServicio\" />
     <Folder Include="Servicio\Comandos\ActualizarServicio\" />
     <Folder Include="Servicio\Consultas\ObtenerServicioLista\" />
