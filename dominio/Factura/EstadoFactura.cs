@@ -1,6 +1,6 @@
 ﻿namespace dominio;
 
-public enum EstadoFactura
+public enum EstadoComprobante
 {
     Pendiente,
     Pagado,

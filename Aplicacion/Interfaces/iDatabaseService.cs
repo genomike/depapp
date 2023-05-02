@@ -1,12 +1,13 @@
-﻿using dominio;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 
 namespace Aplicacion.Interfaces;
+
+using dominio;
 
 public interface iDatabaseService
 {
     // Facturas
-    IDbSet<Factura> Facturas { get; set; }
+    IDbSet<Comprobante> Facturas { get; set; }
 
     IDbSet<CambioEstado> CambioEstados { get; set; }
 
@@ -18,8 +19,6 @@ public interface iDatabaseService
     IDbSet<Almacen> Almacenes { get; set; }
 
     //Servicios
-    IDbSet<Servicio> Servicios { get; set; }
-
     IDbSet<CostoVariable> CostoVariables { get; set; }
 
     IDbSet<Limpieza> Limpiezas { get; set; }
@@ -27,6 +26,8 @@ public interface iDatabaseService
     IDbSet<Mantenimiento> Mantenimientos { get; set; }
 
     IDbSet<Vigilancia> Vigilancias { get; set; }
+
+    IDbSet<Administracion> Administraciones { get; set; }
 
     //Vecinos
     IDbSet<Inquilino> Inquilinos { get; set; }

@@ -2,7 +2,7 @@
 
 public class Visitante : Vecino
 {
-    public List<DateOnly>? InicioVisita { get; set; }
+    public IEnumerable<DateOnly>? InicioVisita { get; set; }
 
-    public List<DateOnly>? TerminoVisita { get; set; }
+    public IEnumerable<DateOnly>? TerminoVisita { get; set; }
 }

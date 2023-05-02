@@ -1,6 +1,6 @@
-﻿using dominio;
+﻿namespace Aplicacion.Propiedad.Fabrica;
 
-namespace Aplicacion.Propiedad.Fabrica;
+using dominio;
 
 internal class DepartamentoFabrica : IDepartamentoFabrica
 {

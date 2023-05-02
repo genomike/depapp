@@ -7,19 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Factura\Comandos\CrearFactura\" />
-    <Folder Include="Factura\Comandos\ActualizarFactura\" />
-    <Folder Include="Factura\Consultas\ObtenerFacturaLista\" />
-    <Folder Include="Factura\Consultas\ObtenerFacturaDetalle\" />
-    <Folder Include="Propiedad\Comandos\ActualizarDepartamento\" />
-    <Folder Include="Servicio\Comandos\CrearServicio\" />
-    <Folder Include="Servicio\Comandos\ActualizarServicio\" />
-    <Folder Include="Servicio\Consultas\ObtenerServicioLista\" />
-    <Folder Include="Servicio\Consultas\ObtenerServicioDetalle\" />
+    <Folder Include="Comprobante\Comandos\CrearComprobante\" />
+    <Folder Include="Servicio\Comandos\CrearAdministracion\" />
+    <Folder Include="Servicio\Comandos\CrearLimpieza\" />
+    <Folder Include="Servicio\Comandos\CrearMantenimiento\" />
+    <Folder Include="Servicio\Comandos\CrearVigilancia\" />
     <Folder Include="Vecino\Comandos\CrearServicio\" />
-    <Folder Include="Vecino\Comandos\ActualizarServicio\" />
-    <Folder Include="Vecino\Consultas\ObtenerVecinoDetalle\" />
-    <Folder Include="Vecino\Consultas\ObtenerVecinoLista\" />
   </ItemGroup>
 
   <ItemGroup>

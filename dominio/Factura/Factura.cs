@@ -2,7 +2,7 @@
 
 namespace dominio;
 
-public class Factura : iEntidad
+public class Comprobante : iEntidad
 {
     public int Id { get; set; }
 

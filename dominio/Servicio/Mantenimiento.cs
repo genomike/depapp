@@ -2,7 +2,7 @@
 
 public class Mantenimiento : Servicio
 {
-    public List<CostoVariable>? GastosMantenimiento { get; set; }
+    public IEnumerable<CostoVariable>? GastosMantenimiento { get; set; }
 
     public string? Descripcion { get; set; }
 

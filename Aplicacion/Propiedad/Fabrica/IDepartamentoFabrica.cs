@@ -1,5 +1,6 @@
-﻿using dominio;
-namespace Aplicacion.Propiedad.Fabrica;
+﻿namespace Aplicacion.Propiedad.Fabrica;
+
+using dominio;
 
 public interface IDepartamentoFabrica
 {

@@ -2,7 +2,7 @@
 
 public class CambioEstado
 {
-    public EstadoFactura EstadoFactura { get; set; }
+    public EstadoComprobante EstadoComprobante { get; set; }
 
     public DateTime FechaCambio { get; set; }
 
