@@ -1,6 +1,6 @@
 ﻿namespace Aplicacion.Vecino.Consultas.GetVecinoLista;
 
-internal interface IObtenerVisitanteLista
+public interface IObtenerVisitanteLista
 {
     IEnumerable<VisitanteListaModelo>? Ejecutar();
 }

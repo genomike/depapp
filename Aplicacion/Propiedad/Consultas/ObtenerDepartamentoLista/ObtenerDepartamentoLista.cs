@@ -2,7 +2,7 @@
 
 namespace Aplicacion.Propiedad.Consultas.GetPropiedadLista;
 
-public class ObtenerDepartamentoLista : IObtenerDepartamentoLista
+internal class ObtenerDepartamentoLista : IObtenerDepartamentoLista
 {
     iDatabaseService? _DatabaseService;
 

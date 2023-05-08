@@ -1,4 +1,5 @@
 ﻿namespace Aplicacion.Propiedad.Fabrica;
+
 using dominio;
 
 internal class AlmacenFabrica : IAlmacenFabrica

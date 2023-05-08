@@ -1,4 +1,5 @@
-﻿namespace Aplicacion.Vecino.Consultas.GetVecinoLista;
-using dominio;
+﻿using dominio;
+
+namespace Aplicacion.Vecino.Consultas.GetVecinoLista;
 
 public class VisitanteListaModelo : Visitante { }

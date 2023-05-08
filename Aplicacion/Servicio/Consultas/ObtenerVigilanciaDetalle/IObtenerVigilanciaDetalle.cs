@@ -1,6 +1,6 @@
 ﻿namespace Aplicacion.Servicio.Consultas.GetServicioDetalles;
 
-internal interface IObtenerVigilanciaDetalle
+public interface IObtenerVigilanciaDetalle
 {
     VigilanciaDetalleModelo? Ejecutar(int Id);
 }

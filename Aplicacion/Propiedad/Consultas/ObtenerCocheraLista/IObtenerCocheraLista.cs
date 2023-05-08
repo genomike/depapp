@@ -1,6 +1,6 @@
 ﻿namespace Aplicacion.Propiedad.Consultas.GetPropiedadLista;
 
-internal interface IObtenerCocheraLista
+public interface IObtenerCocheraLista
 {
     IEnumerable<CocheraListaModelo>? Ejecutar();
 }

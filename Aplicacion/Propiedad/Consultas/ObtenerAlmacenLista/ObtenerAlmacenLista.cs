@@ -2,7 +2,7 @@
 
 namespace Aplicacion.Propiedad.Consultas.GetPropiedadLista;
 
-public class ObtenerAlmacenLista : IObtenerAlmacenLista
+internal class ObtenerAlmacenLista : IObtenerAlmacenLista
 {
     iDatabaseService? _DatabaseService;
     public ObtenerAlmacenLista(iDatabaseService? DatabaseService)
@@ -11,7 +11,7 @@ public class ObtenerAlmacenLista : IObtenerAlmacenLista
     }
 
     public IEnumerable<AlmacenListaModelo>? Ejecutar()
-    => _DatabaseService
+    => _DatabaseService?
         .Almacenes
         .Select(a => new AlmacenListaModelo()
         {

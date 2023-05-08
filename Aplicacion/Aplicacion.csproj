@@ -7,15 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Comprobante\Comandos\CrearComprobante\" />
-    <Folder Include="Servicio\Comandos\CrearAdministracion\" />
-    <Folder Include="Servicio\Comandos\CrearLimpieza\" />
-    <Folder Include="Servicio\Comandos\CrearMantenimiento\" />
-    <Folder Include="Servicio\Comandos\CrearVigilancia\" />
-    <Folder Include="Vecino\Comandos\CrearServicio\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
   </ItemGroup>

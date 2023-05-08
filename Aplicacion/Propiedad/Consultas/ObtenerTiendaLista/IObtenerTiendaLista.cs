@@ -1,6 +1,6 @@
 ﻿namespace Aplicacion.Propiedad.Consultas.GetPropiedadLista;
 
-internal interface IObtenerTiendaLista
+public interface IObtenerTiendaLista
 {
     IEnumerable<TiendaListaModelo>? Ejecutar();
 }

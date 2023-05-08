@@ -1,6 +1,6 @@
 ﻿namespace Aplicacion.Servicio.Consultas.GetServicioDetalles;
 
-internal interface IObtenerLimpiezaDetalle
+public interface IObtenerLimpiezaDetalle
 {
     LimpiezaDetalleModelo? Ejecutar(int Id);
 }

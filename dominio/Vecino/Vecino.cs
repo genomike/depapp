@@ -1,18 +1,23 @@
 ﻿using dominio.Comun;
+using System.ComponentModel.DataAnnotations;
 
 namespace dominio;
 
 public abstract class Vecino : iEntidad
 {
+    [Required]
     public int Id { get; set; }
 
-    public List<Propiedad>? Propiedades { get; set; }
+    public IEnumerable<Propiedad>? Propiedades { get; set; }
 
+    [Required]
     public tipoVecino Tipo { get; set; }
 
-    public string? Nombres { get; set; }
+    [Required]
+    public string Nombres { get; set; }
 
-    public string? Apellidos { get; set; }
+    [Required]
+    public string Apellidos { get; set; }
 
     public bool Principal { get; set; }
 

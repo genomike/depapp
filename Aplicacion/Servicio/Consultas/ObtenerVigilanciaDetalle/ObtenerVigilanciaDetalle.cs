@@ -3,7 +3,7 @@ using Aplicacion.Servicio.Consultas.GetServicioDetalles;
 
 namespace Aplicacion.Servicio.Consultas.GetServicioDetails;
 
-public class ObtenerVigilanciaDetalle : IObtenerVigilanciaDetalle
+internal class ObtenerVigilanciaDetalle : IObtenerVigilanciaDetalle
 {
     iDatabaseService? _DatabaseService;
 

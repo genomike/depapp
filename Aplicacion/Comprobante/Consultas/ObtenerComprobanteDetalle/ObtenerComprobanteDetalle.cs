@@ -2,7 +2,7 @@
 
 namespace Aplicacion.Comprobante.Consultas.ObtenerComprobanteDetalle;
 
-public class ObtenerComprobanteDetalle : IObtenerComprobanteDetalle
+internal class ObtenerComprobanteDetalle : IObtenerComprobanteDetalle
 {
     iDatabaseService? _DatabaseService;
 
@@ -10,9 +10,10 @@ public class ObtenerComprobanteDetalle : IObtenerComprobanteDetalle
     {
         _DatabaseService = DatabaseService;
     }
+
     public ComprobanteDetalleModelo? Ejecutar(int Id)
         => _DatabaseService?
-           .Facturas
+           .Comprobantes
            .Where(f => f.Id == Id)
            .Select(f => new ComprobanteDetalleModelo()
            {

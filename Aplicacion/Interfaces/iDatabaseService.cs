@@ -7,7 +7,7 @@ using dominio;
 public interface iDatabaseService
 {
     // Facturas
-    IDbSet<Comprobante> Facturas { get; set; }
+    IDbSet<Comprobante> Comprobantes { get; set; }
 
     IDbSet<CambioEstado> CambioEstados { get; set; }
 

@@ -3,7 +3,7 @@ using Aplicacion.Servicio.Consultas.GetServicioDetalles;
 
 namespace Aplicacion.Servicio.Consultas.GetServicioDetails;
 
-public class ObtenerLimpiezaDetalle : IObtenerLimpiezaDetalle
+internal class ObtenerLimpiezaDetalle : IObtenerLimpiezaDetalle
 {
     iDatabaseService? _DatabaseService;
 

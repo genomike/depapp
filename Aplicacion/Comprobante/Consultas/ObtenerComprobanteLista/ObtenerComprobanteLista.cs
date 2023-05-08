@@ -2,7 +2,7 @@
 
 namespace Aplicacion.Comprobante.Consultas.ObtenerComprobanteLista;
 
-public class ObtenerComprobanteLista : IObtenerComprobanteLista
+internal class ObtenerComprobanteLista : IObtenerComprobanteLista
 {
     iDatabaseService? _DatabaseService;
 
@@ -11,8 +11,8 @@ public class ObtenerComprobanteLista : IObtenerComprobanteLista
         _DatabaseService = DatabaseService;
     }
     public IEnumerable<ComprobanteListaModelo>? Ejecutar()
-    => _DatabaseService
-        .Facturas
+    => _DatabaseService?
+        .Comprobantes
         .Select(f => new ComprobanteListaModelo()
         {
             Id = f.Id,

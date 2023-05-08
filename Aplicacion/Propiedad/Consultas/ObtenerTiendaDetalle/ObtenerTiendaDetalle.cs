@@ -3,7 +3,7 @@ using Aplicacion.Propiedad.Consultas.GetPropiedadDetalles;
 
 namespace Aplicacion.Propiedad.Consultas.GetPropiedadDetails;
 
-public class ObtenerTiendaDetalle : IObtenerTiendaDetalle
+internal class ObtenerTiendaDetalle : IObtenerTiendaDetalle
 {
     iDatabaseService? _DatabaseService;
 

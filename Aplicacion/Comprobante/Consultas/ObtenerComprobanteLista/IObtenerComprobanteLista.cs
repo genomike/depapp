@@ -1,6 +1,6 @@
 ﻿namespace Aplicacion.Comprobante.Consultas.ObtenerComprobanteLista;
 
-internal interface IObtenerComprobanteLista
+public interface IObtenerComprobanteLista
 {
     IEnumerable<ComprobanteListaModelo>? Ejecutar();
 }

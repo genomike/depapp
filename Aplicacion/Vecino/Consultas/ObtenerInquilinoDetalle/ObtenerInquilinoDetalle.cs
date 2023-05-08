@@ -3,7 +3,7 @@ using Aplicacion.Vecino.Consultas.GetVecinoDetalles;
 
 namespace Aplicacion.Vecino.Consultas.GetVecinoDetails;
 
-public class ObtenerInquilinoDetalle : IObtenerInquilinoDetalle
+internal class ObtenerInquilinoDetalle : IObtenerInquilinoDetalle
 {
     iDatabaseService? _DatabaseService;
 
@@ -11,6 +11,7 @@ public class ObtenerInquilinoDetalle : IObtenerInquilinoDetalle
     {
         _DatabaseService = DatabaseService;
     }
+
     public InquilinoDetalleModelo? Ejecutar(int Id)
         => _DatabaseService?
            .Inquilinos

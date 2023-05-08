@@ -3,7 +3,7 @@ using Aplicacion.Vecino.Consultas.GetVecinoDetalles;
 
 namespace Aplicacion.Vecino.Consultas.GetVecinoDetails;
 
-public class ObtenerVisitanteDetalle : IObtenerVisitanteDetalle
+internal class ObtenerVisitanteDetalle : IObtenerVisitanteDetalle
 {
     iDatabaseService? _DatabaseService;
 

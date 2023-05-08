@@ -1,6 +1,6 @@
 namespace Aplicacion.Propiedad.Consultas.GetPropiedadLista;
 
-internal interface IObtenerDepartamentoLista
+public interface IObtenerDepartamentoLista
 {
     IEnumerable<DepartamentoListaModelo>? Ejecutar();
 }

@@ -10,9 +10,10 @@ public abstract class Propiedad : iEntidad
 
     public IEnumerable<Vecino>? Vecino { get; set; }
 
-    [StringLength(10, ErrorMessage = "El texto es invalido", MinimumLength = 3)]
+    [Required]
+    [StringLength(10, ErrorMessage = "El formato es incorrecto", MinimumLength = 3)]
     [Display(Name = "Número de Propiedad")]
-    public string? Numero { get; set; }
+    public string Numero { get; set; }
 
     [Required]
     [Range(0, 250)]

@@ -2,7 +2,7 @@
 
 namespace Aplicacion.Vecino.Consultas.GetVecinoLista;
 
-public class ObtenerVisitanteLista : IObtenerVisitanteLista
+internal class ObtenerVisitanteLista : IObtenerVisitanteLista
 {
     iDatabaseService? _DatabaseService;
 
@@ -11,7 +11,7 @@ public class ObtenerVisitanteLista : IObtenerVisitanteLista
         _DatabaseService = DatabaseService;
     }
     public IEnumerable<VisitanteListaModelo>? Ejecutar()
-    => _DatabaseService
+    => _DatabaseService?
         .Visitantes
         .Select(v => new VisitanteListaModelo()
         {

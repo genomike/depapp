@@ -2,7 +2,7 @@
 
 namespace Aplicacion.Servicio.Consultas.GetServicioLista;
 
-public class ObtenerVigilanciaLista : IObtenerVigilanciaLista
+internal class ObtenerVigilanciaLista : IObtenerVigilanciaLista
 {
     iDatabaseService? _DatabaseService;
 

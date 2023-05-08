@@ -2,7 +2,7 @@
 
 namespace Aplicacion.Vecino.Consultas.GetVecinoLista;
 
-public class ObtenerPropietarioLista : IObtenerPropietarioLista
+internal class ObtenerPropietarioLista : IObtenerPropietarioLista
 {
     iDatabaseService? _DatabaseService;
 

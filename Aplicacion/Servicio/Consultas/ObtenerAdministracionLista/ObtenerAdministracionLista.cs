@@ -2,7 +2,7 @@
 
 namespace Aplicacion.Servicio.Consultas.GetServicioLista;
 
-public class ObtenerAdministracionLista : IObtenerAdministracionLista
+internal class ObtenerAdministracionLista : IObtenerAdministracionLista
 {
     iDatabaseService? _DatabaseService;
 
@@ -12,7 +12,7 @@ public class ObtenerAdministracionLista : IObtenerAdministracionLista
     }
 
     public IEnumerable<AdministracionListaModelo>? Ejecutar()
-    => _DatabaseService
+    => _DatabaseService?
         .Administraciones
         .Select(a => new AdministracionListaModelo()
         {

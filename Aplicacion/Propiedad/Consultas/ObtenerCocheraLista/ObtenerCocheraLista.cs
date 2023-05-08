@@ -1,7 +1,8 @@
 ﻿using Aplicacion.Interfaces;
+
 namespace Aplicacion.Propiedad.Consultas.GetPropiedadLista;
 
-public class ObtenerCocheraLista : IObtenerCocheraLista
+internal class ObtenerCocheraLista : IObtenerCocheraLista
 {
     iDatabaseService? _DatabaseService;
     public ObtenerCocheraLista(iDatabaseService? DatabaseService)
@@ -10,7 +11,7 @@ public class ObtenerCocheraLista : IObtenerCocheraLista
     }
 
     public IEnumerable<CocheraListaModelo>? Ejecutar()
-    => _DatabaseService
+    => _DatabaseService?
         .Cocheras
         .Select(c => new CocheraListaModelo()
         {

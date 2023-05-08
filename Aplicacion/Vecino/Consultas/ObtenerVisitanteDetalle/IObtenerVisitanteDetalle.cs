@@ -1,6 +1,6 @@
 ﻿namespace Aplicacion.Vecino.Consultas.GetVecinoDetalles;
 
-internal interface IObtenerVisitanteDetalle
+public interface IObtenerVisitanteDetalle
 {
     VisitanteDetalleModelo? Ejecutar(int Id);
 }

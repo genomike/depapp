@@ -1,6 +1,6 @@
 ﻿namespace Aplicacion.Propiedad.Consultas.GetPropiedadDetalles;
 
-internal interface IObtenerTiendaDetalle
+public interface IObtenerTiendaDetalle
 {
     TiendaDetalleModelo? Ejecutar(int Id);
 }

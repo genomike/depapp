@@ -1,7 +1,10 @@
-﻿namespace dominio;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace dominio;
 
 public class CostoVariable
 {
+    [Display(Name = "Fecha del Gasto")]
     public DateOnly FechaGasto { get; set; }
 
     public decimal Costo { get; set; }

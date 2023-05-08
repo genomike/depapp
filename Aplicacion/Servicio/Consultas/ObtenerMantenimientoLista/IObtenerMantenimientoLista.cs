@@ -1,6 +1,6 @@
 ﻿namespace Aplicacion.Servicio.Consultas.GetServicioLista;
 
-internal interface IObtenerMantenimientoLista
+public interface IObtenerMantenimientoLista
 {
     IEnumerable<MantenimientoListaModelo>? Ejecutar();
 }

@@ -1,6 +1,6 @@
 ﻿namespace Aplicacion.Vecino.Consultas.GetVecinoLista;
 
-internal interface IObtenerPropietarioLista
+public interface IObtenerPropietarioLista
 {
     IEnumerable<PropietarioListaModelo>? Ejecutar();
 }
